@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <!--
+    Modified from the Debian original for Ubuntu
+    Last updated: 2022-03-22
+    See: https://launchpad.net/bugs/1966004
+  -->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>인마고 리눅스 연습용</title> <!-- 타이틀 변경 -->
+    <style type="text/css" media="screen">
+        /* 기존 스타일 수정 및 추가 */
+        body, html {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+        }
+        
+        .main_page {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .page_header {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-bottom: 2px solid #ccc;
+            text-align: center;
+        }
+
+        .banner {
+            background-color: #e9510e;
+            color: #fff;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        .content_section {
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .section_header {
+            background-color: #8e9cb2;
+            color: #fff;
+            font-weight: bold;
+            font-size: 18px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .content_section_text p {
+            margin-bottom: 20px;
+        }
+
+        .content_section_text pre {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="main_page">
+      <div class="page_header">
+        <h1>인마고 리눅스 연습용</h1> <!-- 페이지 헤더 수정 -->
+        <div class="banner">
+          It works! <!-- 배너 내용 수정 -->
+        </div>
+      </div>
+      <div class="content_section">
+        <div class="content_section_text">
+          <p>
+            리눅스 웹 서버 설정 연습용으로 만들어진 페이지입니다. Apache2가 정상적으로 작동하는지 확인하기 위해 사용됩니다.
+          </p>
+          <p>
+            만약 이 페이지를 볼 수 있다면, Apache HTTP 서버가 해당 사이트에서 제대로 작동하고 있음을 의미합니다. 웹 서버를 계속 사용하기 전에 이 파일(<tt>/var/www/html/index.html</tt>)을 교체하십시오.
+          </p>
+        </div>
+        <div class="section_header">
+          Configuration Overview <!-- 섹션 헤더 수정 -->
+        </div>
+        <div class="content_section_text">
+          <p>
+            Ubuntu의 Apache2 기본 설정은 원본 설정과 약간 다릅니다. Ubuntu 도구와의 상호 작용을 최적화하기 위해 여러 파일로 분할되어 있습니다. 설정 시스템은 <b>/usr/share/doc/apache2/README.Debian.gz</b>에서 완전히 문서화되어 있습니다. 자세한 내용은 이 문서를 참조하십시오. 웹 서버 자체에 대한 문서는 <tt>apache2-doc</tt> 패키지가 이 서버에 설치되어 있으면 <a href="/manual">manual</a>을 참조하여 확인할 수 있습니다.
+          </p>
+        </div>
+        <div class="section_header">
+          Document Roots <!-- 섹션 헤더 수정 -->
+        </div>
+        <div class="content_section_text">
+          <p>
+            기본적으로 Ubuntu는 <tt>/var/www</tt>, <a href="http://httpd.apache.org/docs/2

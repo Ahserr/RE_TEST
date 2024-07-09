@@ -1,0 +1,14 @@
+\t (00:00:00) padstack_editor 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Tue Jul 09 10:32:53 2024
+\t (00:00:00)         Host=YDG User=user Pid=1420 CPUs=16
+\t (00:00:00) CmdLine= C:\Cadence\SPB_17.2\tools\bin\padstack_editor.exe
+\t (00:00:00) 
+\d (00:00:05) QtSignal MainWindow New triggered
+\d (00:00:07) QtSignal fileNewDialog dataCombo CurrentIndexChanged Via
+\d (00:00:07) QtSignal fileNewDialog dataCombo activated Via
+\d (00:00:08) QtSignal fileNewDialog OK clicked
+\d (00:00:09) QtFillin OK
+\d (00:00:10) QtSignal fileNewDialog browse clicked
+\d (00:00:21) QtFillin 
+\d (00:00:22) QtSignal fileNewDialog Cancel clicked
+\t (00:00:51)     Journal end - Tue Jul 09 10:33:44 2024

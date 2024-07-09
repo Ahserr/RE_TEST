@@ -1,0 +1,41 @@
+\t (00:00:03) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Tue May 07 08:45:48 2024
+\t (00:00:03)         Host=YDG User=user Pid=11272 CPUs=16
+\t (00:00:03) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:05) Starting new design...
+\i (00:00:05) trapsize 710
+\i (00:00:05) trapsize 727
+\i (00:00:05) trapsize 1101
+\i (00:00:05) trapsize 1098
+\i (00:00:05) trapsize 11053
+\i (00:00:05) etchedit 
+\i (00:03:08) new 
+\i (00:04:19) newdrawfillin "SMD1_0x0_45.dra" "Package Symbol (Wizard)"
+\t (00:04:19) Starting new design...
+\i (00:04:19) trapsize 710
+\i (00:04:19) trapsize 727
+\i (00:04:19) trapsize 1098
+\i (00:04:19) trapsize 1098
+\i (00:04:20) package symbol wizard 
+\i (00:04:41) setwindow form.sym_wizard
+\i (00:04:41) FORM sym_wizard cancel  
+   (00:04:41) Loading cmds.cxt 
+\i (00:04:41) setwindow pcb
+\i (00:04:41) etchedit 
+\i (00:04:41) etchedit 
+\i (00:07:07) open 
+\e (00:07:07) Do you want to save the changes you made to SMD1_0x0_45.dra?
+\i (00:07:09) fillin yes 
+\e (00:07:09) ERROR(SPMHGE-7): Error(s) occurred, check logfile.
+\i (00:07:47) fillin "C:\Cadence\SPB_17.2\share\pcb\pcb_lib\symbols\tqfp32.dra"
+\i (00:07:47) cd "C:\Cadence\SPB_17.2\share\pcb\pcb_lib\symbols"
+\t (00:07:47) Opening existing design...
+\t (00:07:48) Grids are drawn 15.748, 15.748 apart for enhanced viewability.
+\i (00:07:48) trapsize 4813
+\t (00:07:48) Grids are drawn 7.874, 7.874 apart for enhanced viewability.
+\i (00:07:48) trapsize 4930
+\t (00:07:48) Grids are drawn 7.874, 7.874 apart for enhanced viewability.
+\i (00:07:48) trapsize 8158
+\t (00:07:48)     Journal end - Tue May 07 08:53:32 2024
